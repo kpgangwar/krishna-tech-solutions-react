@@ -1,0 +1,155 @@
+.about {
+  padding: 80px 8%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.about-text h1 {
+  margin-bottom: 15px;
+  font-size: 38px;
+}
+
+.about-text p {
+  margin-bottom: 15px;
+}
+
+.about-text ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-text li {
+  margin: 8px 0;
+}
+
+/* image */
+.about-img img {
+  width: 420px;
+  border-radius: 12px;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-img img {
+    width: 90%;
+  }
+}
+
+/* mission section */
+.mission {
+  padding: 60px 8%;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.mission-card {
+  padding: 25px;
+  border-radius: 12px;
+  background: #020617;
+  color: white;
+  max-width: 350px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.mission-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 15px rgba(56,189,248,0.5);
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .mission {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* team */
+.team {
+  padding: 70px 8%;
+  text-align: center;
+}
+
+.team h2 {
+  margin-bottom: 30px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.team-card {
+  background: #020617;
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  transition: 0.3s;
+}
+
+.team-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 15px rgba(56,189,248,0.5);
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* stats */
+.stats {
+  padding: 60px 8%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  text-align: center;
+}
+
+.stats h3 {
+  font-size: 34px;
+  color: #38bdf8;
+}
+
+/* cta */
+.about-cta {
+  padding: 60px 8%;
+  text-align: center;
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: white;
+}
+
+.about-cta a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 22px;
+  background: #38bdf8;
+  border-radius: 6px;
+  text-decoration: none;
+  color: black;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .stats {
+    flex-direction: column;
+  }
+}

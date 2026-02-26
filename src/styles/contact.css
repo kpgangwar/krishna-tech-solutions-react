@@ -1,0 +1,50 @@
+.contact {
+  padding: 80px 8%;
+  text-align: center;
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: white;
+}
+
+.contact h2 {
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+
+/* glass form */
+.glass {
+  max-width: 420px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(15px);
+  background: rgba(255,255,255,0.05);
+  box-shadow: 0 0 20px rgba(56,189,248,0.3);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.contact-form button {
+  padding: 12px;
+  border: none;
+  background: #38bdf8;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  transform: translateY(-3px);
+}

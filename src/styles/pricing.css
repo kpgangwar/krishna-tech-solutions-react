@@ -1,0 +1,60 @@
+.pricing {
+  padding: 80px 8%;
+  text-align: center;
+  background: #020617;
+  color: white;
+}
+
+.pricing h2 {
+  margin-bottom: 40px;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.price-card {
+  padding: 30px;
+  border-radius: 15px;
+  background: #0f172a;
+  transition: 0.3s;
+}
+
+.price-card h1 {
+  margin: 15px 0;
+  color: #38bdf8;
+}
+
+.price-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.price-card li {
+  margin: 8px 0;
+}
+
+.price-card a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 22px;
+  background: #38bdf8;
+  border-radius: 6px;
+  text-decoration: none;
+  color: black;
+}
+
+/* highlight plan */
+.highlight {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(56,189,248,0.5);
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+}

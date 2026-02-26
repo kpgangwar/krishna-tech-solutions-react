@@ -1,0 +1,135 @@
+.footer {
+  background: #020617;
+  color: white;
+  padding: 50px 8%;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer h3,
+.footer h4 {
+  margin-bottom: 10px;
+}
+
+.copy {
+  text-align: center;
+  opacity: 0.7;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .footer-box {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+.social {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.social a {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0f172a;
+  border-radius: 50%;
+  font-size: 18px;
+  color: white;
+  transition: 0.3s;
+}
+
+/* brand hover colors */
+.social a:nth-child(1):hover {
+  background: #1877f2; /* Facebook */
+  color: white;
+  transform: translateY(-4px);
+  box-shadow: 0 0 15px #1877f2;
+}
+
+.social a:nth-child(2):hover {
+  background: #e4405f; /* Instagram */
+  color: white;
+  transform: translateY(-4px);
+  box-shadow: 0 0 15px #e4405f;
+}
+
+.social a:nth-child(3):hover {
+  background: #ff0000; /* YouTube */
+  color: white;
+  transform: translateY(-4px);
+  box-shadow: 0 0 15px #ff0000;
+}
+
+.social a:nth-child(4):hover {
+  background: #0a66c2; /* LinkedIn */
+  color: white;
+  transform: translateY(-4px);
+  box-shadow: 0 0 15px #0a66c2;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #38bdf8;
+}
+/* wrapper */
+.scroll-wrapper {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* tooltip */
+.scroll-tooltip {
+  position: absolute;
+  right: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #0f172a;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  opacity: 0;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.scroll-wrapper:hover .scroll-tooltip {
+  opacity: 1;
+}
+
+/* button */
+.scroll-top {
+  background: #38bdf8;
+  border: none;
+  width: 45px;
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  font-size: 22px;
+  cursor: pointer;
+  animation: pulseScroll 1.8s infinite;
+}
+
+/* pulse animation */
+@keyframes pulseScroll {
+  0% { box-shadow: 0 0 0 0 rgba(56,189,248,0.7); }
+  70% { box-shadow: 0 0 0 15px rgba(56,189,248,0); }
+  100% { box-shadow: 0 0 0 0 rgba(56,189,248,0); }
+}

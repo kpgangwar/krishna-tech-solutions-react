@@ -1,0 +1,91 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 8%;
+  min-height: 90vh;
+
+  /* 🌈 gradient background */
+  background: linear-gradient(135deg, #020617, #0f172a, #020617);
+  color: white;
+}
+
+/* text */
+.hero-content h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+/* buttons */
+.hero-btns {
+  display: flex;
+  gap: 15px;
+}
+
+.primary {
+  padding: 10px 22px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.secondary {
+  padding: 10px 22px;
+  border: 2px solid #38bdf8;
+  background: transparent;
+  border-radius: 6px;
+  color: #38bdf8;
+}
+
+/* image floating */
+.hero-img img {
+  width: 450px;
+  animation: float 3s ease-in-out infinite;
+}
+
+/* floating animation */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .hero-img img {
+    width: 90%;
+  }
+
+  .hero-content h1 {
+    font-size: 30px;
+  }
+}
+
+/* text fade animation */
+.hero-content {
+  animation: fadeUp 1.2s ease;
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

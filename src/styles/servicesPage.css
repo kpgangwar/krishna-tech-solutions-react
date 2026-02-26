@@ -1,0 +1,34 @@
+.services-page {
+  padding: 80px 8%;
+  text-align: center;
+}
+
+.services-page h1 {
+  margin-bottom: 40px;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.service-box {
+  padding: 25px;
+  background: #020617;
+  color: white;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.service-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 15px rgba(56,189,248,0.5);
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .services-list {
+    grid-template-columns: 1fr;
+  }
+}
