@@ -45,6 +45,19 @@
   animation: pulse 1.8s infinite;
 }
 
+@media (max-width: 768px) {
+  .whatsapp-wrapper {
+    bottom: 80px !important;
+    right: 10px !important;
+  }
+
+  .whatsapp-float {
+    width: 45px;
+    height: 45px;
+    font-size: 22px;
+  }
+}
+
 @keyframes pulse {
   0% { box-shadow: 0 0 0 0 rgba(37,211,102,0.7); }
   70% { box-shadow: 0 0 0 15px rgba(37,211,102,0); }
