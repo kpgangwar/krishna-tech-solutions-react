@@ -6,9 +6,11 @@ import ServicesPage from "./pages/ServicesPage";
 import WhatsAppFloat from "./components/WhatsAppFloat";
 import PortfolioPage from "./pages/PortfolioPage";
 import ContactPage from "./pages/ContactPage";
+import { HelmetProvider } from "react-helmet-async";
 
 function App() {
   return (
+    <HelmetProvider>
     <BrowserRouter>
       <Navbar />
       <Routes>
@@ -20,6 +22,7 @@ function App() {
       </Routes>
       <WhatsAppFloat />
     </BrowserRouter>
+    </HelmetProvider>
   );
 }
 
