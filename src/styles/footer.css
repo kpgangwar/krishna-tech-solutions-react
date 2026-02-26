@@ -83,6 +83,9 @@
 .footer a:hover {
   color: #38bdf8;
 }
+
+
+@media (max-width: 768px) {
 /* wrapper */
 .scroll-wrapper {
   position: fixed;
@@ -128,8 +131,7 @@
   cursor: pointer;
   animation: pulseScroll 1.8s infinite;
 }
-
-
+}
 
 /* pulse animation */
 @keyframes pulseScroll {

@@ -1,4 +1,4 @@
-
+@media (max-width: 768px) {
 .whatsapp-wrapper {
   position: fixed;
   bottom: 80px;
@@ -45,7 +45,7 @@
   animation: pulse 1.8s infinite;
 }
 
-
+}
 
 @keyframes pulse {
   0% { box-shadow: 0 0 0 0 rgba(37,211,102,0.7); }
