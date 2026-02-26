@@ -1,11 +1,10 @@
 
 .whatsapp-wrapper {
-  position: fixed !important;
-  bottom: 100px !important;
-  right: 15px !important;
+  position: fixed;
+  bottom: calc(70px + env(safe-area-inset-bottom));
+  right: 12px;
   z-index: 9999;
 }
-
 /* tooltip */
 .tooltip {
   position: absolute;
@@ -45,18 +44,7 @@
   animation: pulse 1.8s infinite;
 }
 
-@media (max-width: 768px) {
-  .whatsapp-wrapper {
-    bottom: 80px !important;
-    right: 10px !important;
-  }
 
-  .whatsapp-float {
-    width: 45px;
-    height: 45px;
-    font-size: 22px;
-  }
-}
 
 @keyframes pulse {
   0% { box-shadow: 0 0 0 0 rgba(37,211,102,0.7); }

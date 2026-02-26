@@ -86,8 +86,9 @@
 /* wrapper */
 .scroll-wrapper {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: calc(130px + env(safe-area-inset-bottom));
+  right: 12px;
+  z-index: 9999;
 }
 
 /* tooltip */
@@ -127,18 +128,7 @@
   animation: pulseScroll 1.8s infinite;
 }
 
-@media (max-width: 768px) {
-  .scroll-wrapper {
-    bottom: 140px;   /* WhatsApp se upar shift */
-    right: 12px;
-  }
 
-  .scroll-top {
-    width: 42px;
-    height: 42px;
-    font-size: 20px;
-  }
-}
 
 /* pulse animation */
 @keyframes pulseScroll {
