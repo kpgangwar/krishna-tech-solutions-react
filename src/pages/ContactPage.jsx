@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async"
 import "../styles/contactPage.css";
 
 const ContactPage = () => {
@@ -19,13 +19,23 @@ Message: ${data.msg}`;
   return (
 
      <>
-      <Helmet>
-        <title>Contact Krishna Tech | Hire Developer Bareilly</title>
-        <meta
-          name="description"
-          content="Krishna Tech se website ya app banwane ke liye contact karein."
-        />
-      </Helmet>
+     [6:36 pm, 26/02/2026] Artificialflower: <Helmet>
+  <title>Services | Website & App Development Bareilly</title>
+  <meta name="description" content="Krishna Tech web development, app development, digital marketing aur Google Ads services provide karta hai." />
+</Helmet>
+[6:37 pm, 26/02/2026] Artificialflower: <Helmet>
+  <title>Website & App Development Services in Bareilly | Krishna Tech Solution</title>
+
+  <meta
+    name="description"
+    content="Krishna Tech Solution Bareilly me website development, mobile app development, SEO, digital marketing aur Google Ads services provide karta hai business growth ke liye."
+  />
+
+  <meta
+    name="keywords"
+    content="Website Development Bareilly, App Development Bareilly, SEO Services Bareilly, Digital Marketing Bareilly, Krishna Tech Solution"
+  />
+</Helmet>
     <section className="contact-page">
       <h1>Let’s Talk About Your Project</h1>
 

@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async"
 
 import "../styles/servicesPage.css";
 
@@ -33,9 +33,22 @@ const ServicesPage = () => {
 
     <>
     
-     <Helmet>
+    [6:36 pm, 26/02/2026] Artificialflower: <Helmet>
   <title>Services | Website & App Development Bareilly</title>
   <meta name="description" content="Krishna Tech web development, app development, digital marketing aur Google Ads services provide karta hai." />
+</Helmet>
+[6:37 pm, 26/02/2026] Artificialflower: <Helmet>
+  <title>Website & App Development Services in Bareilly | Krishna Tech Solution</title>
+
+  <meta
+    name="description"
+    content="Krishna Tech Solution Bareilly me website development, mobile app development, SEO, digital marketing aur Google Ads services provide karta hai business growth ke liye."
+  />
+
+  <meta
+    name="keywords"
+    content="Website Development Bareilly, App Development Bareilly, SEO Services Bareilly, Digital Marketing Bareilly, Krishna Tech Solution"
+  />
 </Helmet>
 
 

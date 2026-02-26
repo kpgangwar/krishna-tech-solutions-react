@@ -29,10 +29,17 @@
 } */
 
 
-.whatsapp-wrapper {
+/* .whatsapp-wrapper {
   position: fixed;
   bottom: 80px;
   right: 20px;
+} */
+
+.whatsapp-wrapper {
+  position: fixed !important;
+  bottom: 100px !important;
+  right: 15px !important;
+  z-index: 9999;
 }
 
 /* tooltip */
