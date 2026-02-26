@@ -9,11 +9,7 @@ import { Helmet } from "react-helmet-async"
 export default function Home() {
   return (
     <>
-   [6:36 pm, 26/02/2026] Artificialflower: <Helmet>
-  <title>Services | Website & App Development Bareilly</title>
-  <meta name="description" content="Krishna Tech web development, app development, digital marketing aur Google Ads services provide karta hai." />
-</Helmet>
-[6:37 pm, 26/02/2026] Artificialflower: <Helmet>
+   <Helmet>
   <title>Website & App Development Services in Bareilly | Krishna Tech Solution</title>
 
   <meta
