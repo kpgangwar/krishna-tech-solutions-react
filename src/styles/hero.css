@@ -35,6 +35,11 @@ body {
   gap: 15px;
 }
 
+.hero-btns a {
+  text-decoration: none;
+  display: inline-block;
+}
+
 .primary {
   padding: 10px 22px;
   background: #38bdf8;
