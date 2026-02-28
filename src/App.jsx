@@ -7,6 +7,7 @@ import WhatsAppFloat from "./components/WhatsAppFloat";
 import PortfolioPage from "./pages/PortfolioPage";
 import ContactPage from "./pages/ContactPage";
 import { HelmetProvider } from "react-helmet-async";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <WhatsAppFloat />
+      <Footer /> 
     </BrowserRouter>
     </HelmetProvider>
   );

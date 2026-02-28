@@ -6,22 +6,23 @@ const Portfolio = () => {
 
   const projects = [
     {
-      img: "/images/portfolio/shop1.jpeg",
+      img: "/images/portfolio/shop2.jpg",
+      
       title: "Business Website",
+      category: "Website",
+      link: "https://artificial-flower-house.netlify.app",
+    },
+    {
+      img: "/images/portfolio/shop1.jpeg",
+      title: "Salon Website",
       category: "Website",
       link: "https://dream-makeover.netlify.app",
     },
     {
-      img: "/images/project2.png",
-      title: "Salon Website",
-      category: "Website",
-      link: "https://google.com",
-    },
-    {
-      img: "/images/project1.png",
+      img: "/images/portfolio/techlogo.jpeg",
       title: "App UI",
       category: "App",
-      link: "https://youtube.com",
+      link: "https://krishna-tech-solutions.netlify.app/",
     },
   ];
 

@@ -10,24 +10,45 @@ const PortfolioPage = () => {
   const [filter, setFilter] = useState("All");
 
   const projects = [
+    // {
+    //   img: "/images/portfolio/shop1.jpeg",
+    //   title: "Dream Makeover Website",
+    //   category: "Website",
+    //   link: "https://dream-makeover.netlify.app",
+    // },
+    // {
+    //   img: "/images/project2.png",
+    //   title: "Business Website",
+    //   category: "Website",
+    //   link: "https://google.com",
+    // },
+    // {
+    //   img: "/images/project1.png",
+    //   title: "App UI Design",
+    //   category: "App",
+    //   link: "https://youtube.com",
+    // },
+
+     {
+      img: "/images/portfolio/shop2.jpg",
+      
+      title: "Business Website",
+      category: "Website",
+      link: "https://artificial-flower-house.netlify.app",
+    },
     {
       img: "/images/portfolio/shop1.jpeg",
-      title: "Dream Makeover Website",
+      title: "Salon Website",
       category: "Website",
       link: "https://dream-makeover.netlify.app",
     },
     {
-      img: "/images/project2.png",
-      title: "Business Website",
-      category: "Website",
-      link: "https://google.com",
-    },
-    {
-      img: "/images/project1.png",
-      title: "App UI Design",
+      img: "/images/portfolio/techlogo.jpeg",
+      title: "App UI",
       category: "App",
-      link: "https://youtube.com",
+      link: "https://krishna-tech-solutions.netlify.app/",
     },
+    
   ];
 
   const filtered =
