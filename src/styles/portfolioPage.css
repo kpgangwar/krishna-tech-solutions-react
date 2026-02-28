@@ -1,6 +1,8 @@
 .portfolio-page {
   padding: 80px 8%;
   text-align: center;
+   background: linear-gradient(135deg, #020617, #0f172a);
+
 }
 
 .filters {
